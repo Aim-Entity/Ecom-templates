@@ -85,7 +85,18 @@
                      <h1>Photogen</h1>
                      <ul class="nav-b1-ul">
                         <li class="nav-b1-li"><a href="#">Home</a></li>
-                        <li class="nav-b1-product">Products</li>
+                        <li class="nav-b1-product">
+                           <a href="#">Products</a>
+                           <div class="dropdown">
+                              <ul>
+                                 <li><a href="#">Cameras</a></li>
+                                 <li><a href="#">Drones</a></li>
+                                 <li><a href="#">Recorders</a></li>
+                                 <li><a href="#">Lighting</a></li>
+                              </ul>
+                           </div>
+                           <div class="dropdown-arrow"></div>
+                        </li>
                         <li class="nav-b1-li"><a href="#">Explore</a></li>
                         <li class="nav-b1-li"><a href="#">Support</a></li>
                      </ul>
@@ -102,20 +113,22 @@
          <div class="section-2p">
             <div class="lp-p">
                <img src="./Images/Png/camera-product-min.png" alt="a camera" class="lp-p-img">
-               <div class="lp-p-1">
-                  <h1>Product Name</h1>
-                  <h2>$69.99</h2>
-                  <button type="button">Add To Cart</button>
-               </div>
-               <div class="lp-p-sep"></div>
-               <div class="lp-p-2">
-                  <div class="lp-p-first-link">
-                     <h3 class="lp-p-link1">Specifications</h3>
-                     <img src="./Images/Svg/product-goto.svg" alt="an arrow" class="lp-p-goto1">
+               <div class="lp-p-info">
+                  <div class="lp-p-1">
+                     <h1>Product Name</h1>
+                     <h2>$69.99</h2>
+                     <button type="button">Add To Cart</button>
                   </div>
-                  <div class="lp-p-sec-link">
-                     <h3 class="lp-p-link2">Reviews</h3>
-                     <img src="./Images/Svg/product-goto.svg" alt="an arrow" class="lp-p-goto2">
+                  <div class="lp-p-sep"></div>
+                  <div class="lp-p-2">
+                     <div class="lp-p-first-link">
+                        <h3 class="lp-p-link1">Specifications</h3>
+                        <img src="./Images/Svg/product-goto.svg" alt="an arrow" class="lp-p-goto1">
+                     </div>
+                     <div class="lp-p-sec-link">
+                        <h3 class="lp-p-link2">Reviews</h3>
+                        <img src="./Images/Svg/product-goto.svg" alt="an arrow" class="lp-p-goto2">
+                     </div>
                   </div>
                </div>
             </div>
@@ -143,11 +156,16 @@
       </section>
       <section>
          <div class="section-5p">
-            <div class="battery">
-               <h1>Long Lasting Battery</h1>
-               <div class="battery-sep"></div>
-               <p>Erat nam at lectus urna duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt arcu non sodales.</p>
-               <img src="./Images/Png/camera-product-min.png" alt="a camera" class="battery-img">
+            <div class="battery-p">
+               <div class="battery">
+                  <h1>Long Lasting Battery</h1>
+                  <div class="battery-sep"></div>
+                  <p>Erat nam at lectus urna duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt arcu non sodales.</p>
+                  <img src="./Images/Png/camera-product-min.png" alt="a camera" class="battery-img">
+               </div>
+               <div class="battery-img-p">
+                  <img src="./Images/Png/camera-product-min.png" alt="a camera" class="battery-img-d">
+               </div>
             </div>
          </div>
       </section>
@@ -159,36 +177,45 @@
                   <div class="specs-sep"></div>
                </div>
                <div class="specs-1">
-                  <h1 class="specs-1a">750 Grams</h1>
-                  <h3 class="specs-1b">Weight</h3>
+                  <div class="specs-1-1line">
+                     <h1 class="specs-1a">750 Grams</h1>
+                     <h3 class="specs-1b">Weight</h3>
+                  </div>
                   <div class="specs-1-sep1"></div>
-                  <h1 class="specs-1c">Compact</h1>
-                  <h3 class="specs-1d">Type</h3>
+                  <div class="specs-1-2line">
+                     <h1 class="specs-1c">Compact</h1>
+                     <h3 class="specs-1d">Type</h3>
+                  </div>
                   <div class="specs-1-sep2"></div>
-                  <h1 class="specs-1e">Super CCD</h1>
-                  <h3 class="specs-1f">Sensor</h3>
+                  <div class="specs-1-2line">
+                     <h1 class="specs-1e">Super CCD</h1>
+                     <h3 class="specs-1f">Sensor</h3>
+                  </div>
                </div>
-               <div class="specs-2">
-                  <h1 class="specs-title2">Physical Specifications</h1>
-                  <h2 class="specs-2a">Height: 100mm</h2>
-                  <div class="specs-2-sep1"></div>
-                  <h2 class="specs-2b">Width: 150mm</h2>
-                  <div class="specs-2-sep2"></div>
-                  <h2 class="specs-2c">Depth: 145mm</h2>
-                  <div class="specs-2-sep3"></div>
-                  <h2 class="specs-2d">Weight: 750g</h2>
-                  <div class="specs-2-sep4"></div>
-               </div>
-               <div class="specs-3">
-                  <h1 class="specs-title3">Technical Specifications</h1>
-                  <h2 class="specs-3a">Compact Camera</h2>
-                  <div class="specs-3-sep1"></div>
-                  <h2 class="specs-3b">Pixels: 26.5 Megapixels</h2>
-                  <div class="specs-3-sep2"></div>
-                  <h2 class="specs-3c">Aspect Ratio: 3:2 (Horizontal:Vertical)</h2>
-                  <div class="specs-3-sep3"></div>
-                  <h2 class="specs-3d">Color Filter System: RGB color filters</h2>
-                  <div class="specs-3-sep4"></div>
+               <div class="specs-sep1-b"></div>
+               <div class="specifications-grid">
+                  <div class="specs-2">
+                     <h1 class="specs-title2">Physical Specifications</h1>
+                     <h2 class="specs-2a">Height: 100mm</h2>
+                     <div class="specs-2-sep1"></div>
+                     <h2 class="specs-2b">Width: 150mm</h2>
+                     <div class="specs-2-sep2"></div>
+                     <h2 class="specs-2c">Depth: 145mm</h2>
+                     <div class="specs-2-sep3"></div>
+                     <h2 class="specs-2d">Weight: 750g</h2>
+                     <div class="specs-2-sep4"></div>
+                  </div>
+                  <div class="specs-3">
+                     <h1 class="specs-title3">Technical Specifications</h1>
+                     <h2 class="specs-3a">Compact Camera</h2>
+                     <div class="specs-3-sep1"></div>
+                     <h2 class="specs-3b">Pixels: 26.5 Megapixels</h2>
+                     <div class="specs-3-sep2"></div>
+                     <h2 class="specs-3c">Aspect Ratio: 3:2 (Horizontal:Vertical)</h2>
+                     <div class="specs-3-sep3"></div>
+                     <h2 class="specs-3d">Color Filter System: RGB color filters</h2>
+                     <div class="specs-3-sep4"></div>
+                  </div>
                </div>
             </div>
          </div>
@@ -209,17 +236,23 @@
             <div class="other">
                <h1 class="other-title">Similar Products</h1>
                <div class="other-sep"></div>
-               <div class="other-product1">
-                  <img src="./Images/Svg/Similar-img.svg" alt="a product" class="other-img1">
-                  <h1>Name</h1>
-                  <p>SLIM FOLIO - iPad (7th and 8th gen) - Graphite - Suisse</p>
-                  <h2>$69.99</h2>
-               </div>
-               <div class="other-product2">
-                  <img src="./Images/Svg/Similar-img.svg" alt="a product" class="other-img2">
-                  <h1>Name</h1>
-                  <p>SLIM FOLIO - iPad (7th and 8th gen) - Graphite - Suisse</p>
-                  <h2>$69.99</h2>
+               <div class="other-p">
+                  <div class="other-product1-p">
+                     <img src="./Images/Svg/Similar-img.svg" alt="a product" class="other-img1">
+                     <div class="other-product1">
+                        <h1>Name</h1>
+                        <p>SLIM FOLIO - iPad (7th and 8th gen) - Graphite - Suisse</p>
+                        <h2>$69.99</h2>
+                     </div>
+                  </div>
+                  <div class="other-product2-p">
+                     <img src="./Images/Svg/Similar-img.svg" alt="a product" class="other-img2">
+                     <div class="other-product2">
+                        <h1>Name</h1>
+                        <p>SLIM FOLIO - iPad (7th and 8th gen) - Graphite - Suisse</p>
+                        <h2>$69.99</h2>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>

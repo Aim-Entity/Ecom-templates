@@ -7,12 +7,12 @@
    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Poppins&display=swap" rel="stylesheet">
    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" defer></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js" defer></script>
-   <script src="./Animations/contact.js" defer></script>
+   <script src="./Animations/checkout.js" defer></script>
    <link rel="stylesheet" href="./Styling/style.css">
-   <title>Photogen - Contact Us</title>
+   <title>Photogen - Checkout</title>
 </head>
 <body>
-   <div class="cont-g">
+   <div class="cont-f">
       <header>
          <nav>
             <div class="section-1">
@@ -109,50 +109,48 @@
             </div>
          </nav>
       </header>
-      <section>
-         <div class="section-2g">
-            <div class="lp-g">
-               <h1>Contact Us</h1>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus deserunt illum tempore? Vitae?</p>
-               <img src="./Images/Svg/scroll.svg" alt="a scroll icon" class="lp-g-scroll">
-               <img src="./Images/Png/contact-img-min.png" alt="a camera" class="lp-g-img">
-            </div>
-         </div>
-      </section>
-      <section>
-         <div class="section-3g">
-            <div class="contact">
-               <div class="c-info">
-                  <h1 class="c-title">Send A Message</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus deserunt illum tempore? Vitae?</p>
-               </div>
-               <div class="info-form-container">
-                  <div class="contact-info-container">
-                     <div class="c-phone-p">
-                        <img src="./Images/Svg/phone-alt-solid (2).svg" alt="a phone" class="c-phone">
-                        <h2>0653 354 6568</h2>
-                     </div>
-                     <div class="c-email-p">
-                        <img src="./Images/Svg/envelope-solid (1).svg" alt="an envelope" class="c-env">
-                        <h2>Photogen@gmail.com</h2>
-                     </div>
-                     <div class="c-address-p">
-                        <img src="./Images/Svg/map-marker-alt-solid (2).svg" alt="a map marker" class="c-map">
-                        <h2>215, Rough st, ag21 h4g</h2>
-                     </div>
+      <main>
+         <div class="section-2f">
+            <div class="checkout">
+               <div class="checkout-left">
+                  <div class="checkout-title">
+                     <h1>Checkout</h1>
+                     <h3>Have an account? Sign in</h3>
                   </div>
-                  <div class="c-input">
-                     <input type="text" name="name" id="c-name" placeholder="Full Name" required>
-                     <input type="email" name="email" id="c-email" placeholder="Email Address" required>
-                     <textarea name="message" id="c-msg" cols="30" rows="10" placeholder="Your Message" required></textarea>
-                     <button type="submit">Send Message</button>
+                  <div class="checkout-input">
+                     <input type="text" name="address 1" id="checkout-address1" placeholder="Address Line 1" required>
+                     <div class="checkout-city">
+                        <input type="text" name="state" id="checkout-state" placeholder="Country" required>
+                        <input type="text" name="city" id="checkout-city" placeholder="City" required>
+                     </div>
+                     <div class="checkout-contact">
+                        <input type="tel" name="phone" id="checkout-phone" placeholder="Phone Number" required>
+                        <input type="email" name="email" id="checkout-email" placeholder="Email Address" required>
+                     </div>
+                     <button type="submit">Continue To Payment</button>
+                  </div>
+               </div>
+               <div class="checkout-right">
+                  <div class="checkout-recap-title">
+                     <h1>Order Summary</h1>
+                     <h3 class="checkout-id">ID: 258751689</h3>
+                     <div class="checkout-right-sep1"></div>
+                  </div>
+                  <div class="checkout-summary-items">
+                     <img src="./Images/Png/camera-product-min.png" alt="a camera" class="checkout-img">
+                     <h2>Product Name</h2>
+                     <h3>$69.99</h3>
+                  </div>
+                  <div class="checkout-price">
+                     <h2 class="checkout-total">Total</h2>
+                     <h2 class="checkout-total-price">$99.99</h2>
                   </div>
                </div>
             </div>
          </div>
-      </section>
+      </main>
       <footer>
-         <div class="section-4g">
+         <div class="section-7">
             <div class="footer">
                <div class="f-info">
                   <h1 class="f-address">Address: 215, Rough st, ag21 h4g</h1>
